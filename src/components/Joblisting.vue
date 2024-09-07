@@ -12,7 +12,7 @@ const emit = defineEmits(['delete']);
 
 const deleteJob = async (id) => {
     try {
-            const response = await axios.delete(`https://sazzad46031.github.io/vue-json-server-api/jobs.json/jobs/${id}`)
+            const response = await axios.delete(`http://localhost:8000/jobs/${id}`)
             emit('delete', id);
             console.log('deleted')
         } catch (error) {

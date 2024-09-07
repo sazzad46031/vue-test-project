@@ -24,7 +24,7 @@ const handleSubmit = async () => {
     }
 
     try {
-        const response = await axios.post('https://sazzad46031.github.io/vue-json-server-api/jobs.json/jobs', newJob)
+        const response = await axios.post('http://localhost:8000/jobs', newJob)
         emit('jobAdded', response.data)
         
         form.title = '';
