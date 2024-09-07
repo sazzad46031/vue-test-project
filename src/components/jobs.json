@@ -1,0 +1,64 @@
+{
+  "jobs": [
+    {
+      "title": "Software Engineer",
+      "image": "https://i.ibb.co.com/jbB08zD/xd-430x168.png",
+      "type": "Full-time",
+      "description": "Implement and manage CI/CD pipelines, cloud infrastructure, and automation tools.",
+      "salary": "$95,000 - $120,000",
+      "location": "Austin, TX",
+      "companyName": "CloudTech Solutions",
+      "id": "5"
+    },
+    {
+      "id": "6",
+      "image": "https://i.ibb.co.com/NWVC3yH/wordpress-430x168.png",
+      "title": "Project Manager",
+      "type": "Part-time",
+      "description": "Oversee and manage the successful delivery of software development projects.",
+      "salary": "$50,000 - $70,000",
+      "location": "Boston, MA",
+      "companyName": "Agile Works"
+    },
+    {
+      "id": "ab4e",
+      "title": "Web developer",
+      "image": "https://i.ibb.co.com/xsKzWSV/typescript-430x168.png",
+      "type": "Remote",
+      "description": "Design and improve the user experience and interface for mobile and web applications.",
+      "salary": "100k",
+      "location": "Bangladesh",
+      "companyName": "SGE"
+    },
+    {
+      "title": "Back end developer",
+      "image": "https://i.ibb.co.com/jWwRTgq/swift-430x168.png",
+      "type": "Insite",
+      "description": "Design and improve the user experience and interface for mobile and web applications.",
+      "salary": "10k",
+      "location": "India",
+      "companyName": "SGE",
+      "id": "0c2e"
+    },
+    {
+      "id": "fe4b",
+      "title": "React developer",
+      "image": "https://i.ibb.co.com/kMQ2RTx/sketch-430x168.png",
+      "type": "Remote",
+      "description": "Design and improve the user experience and interface for mobile and web applications.",
+      "salary": "100k",
+      "location": "Bangladesh",
+      "companyName": "SGE"
+    },
+    {
+      "title": "Ux designer",
+      "image": "https://i.ibb.co.com/jbB08zD/xd-430x168.png",
+      "type": "Remote",
+      "description": "Design and improve the user experience and interface for mobile and web applications.",
+      "salary": "100k",
+      "location": "Bangladesh",
+      "companyName": "SGE",
+      "id": "d0eb"
+    }
+  ]
+}
