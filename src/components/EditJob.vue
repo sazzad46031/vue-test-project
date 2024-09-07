@@ -32,7 +32,7 @@ const handleSubmit = async () => {
     }
 
     try {
-        const response = await axios.put(`http://localhost:8000/jobs/${jobId}`, updateJob)
+        const response = await axios.put(`https://sazzad46031.github.io/vue-json-server-api/jobs/${jobId}`, updateJob)
         emit('jobAdded', response.data)
         
         form.title = '';
@@ -48,7 +48,7 @@ const handleSubmit = async () => {
 }
 onMounted(async () => {
     try {
-        const response = await axios.get(`http://localhost:8000/jobs/${jobId}`)
+        const response = await axios.get(`https://sazzad46031.github.io/vue-json-server-api/jobs/${jobId}`)
         state.job = response.data
 
         form.title = state.job.title;

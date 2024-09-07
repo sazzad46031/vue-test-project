@@ -8,7 +8,7 @@ const jobs = ref([])
 
 onMounted(async () => {
     try {
-        const response = await axios.get('http://localhost:8000/jobs')
+        const response = await axios.get('https://sazzad46031.github.io/vue-json-server-api/jobs')
         jobs.value = response.data
     } catch (error) {
         console.error('error fetching job')
